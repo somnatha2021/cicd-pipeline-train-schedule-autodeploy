@@ -1,4 +1,4 @@
-- hosts: "{{ env }}"
+- hosts: kubemaster
   become: yes
   tasks: 
     - name: remove any previous app services
